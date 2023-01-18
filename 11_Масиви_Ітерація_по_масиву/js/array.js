@@ -47,7 +47,7 @@
 // for (const client of clients) {
 //   console.log("client :>> ", client);
 // }
-// ============================================
+// ===================for of========================
 // const str = "Hello word";
 
 // for (const el of str) {
@@ -92,3 +92,22 @@
 
 //   console.log(`Число більше за ${threshold}: ${numbers[i]}`); // 18, 29, 34
 // }
+
+//! Перебір (ітерація) масиву:
+
+//! - for - якщо потрібен індекс або потрібно змінити елемент масиву
+//! - for...of - якщо індекс не потрібен і в масиві нічого міняти не потрібно
+
+// const friends = ["Mango", "Kiwi", "Poly", "Ajax"];
+// console.table(friends);
+// const lastIndex = friends.length - 1;
+
+// for (let i = 0; i < friends.length; i += 1) {
+//   friends[i] += `-${i}`;
+// }
+
+// for (let friend of friends) {
+//   console.log(friend);
+// }
+
+// console.table(friends);
