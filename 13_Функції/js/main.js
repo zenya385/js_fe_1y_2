@@ -52,16 +52,30 @@
 
 //$** =======================Параметри та аргументи============================
 // Оголошення параметрів x, y, z
-// function multiply(x, y, z) {
+// const multiply = function (x, y, z) {
 //   console.log(`Результат множення дорівнює ${x + y + z}`);
 //   return x + y + z;
-// }
+// };
 
-// console.log("multiply(1, 1, 6)", multiply(1, 1, 6));
+// console.log(multiply(1, 1, 6));
 // multiply(4, 5, 6);
 // multiply(1, 1, 1);
 // multiply(2, 2, 2);
 // multiply(3, 3, 3);
+
+// const multiply = function (items) {
+//   console.log(`Результат items у середині функції`, items);
+//   let total = 0;
+//   for (const item of items) {
+//     total += item;
+//   }
+//   return total;
+// };
+
+// console.log(multiply([4, 5, 6]));
+// console.log(multiply([1, 1, 1]));
+// console.log(multiply([2, 2, 2]));
+// console.log(multiply([3, 3, 3]));
 
 //$* ========================Повернення значення===============================
 // function multiply(x, y, z) {
