@@ -270,3 +270,12 @@
 // bookShelf.getBooks();
 // bookShelf.addBook("Мауглі");
 // console.log("bookShelf :>> ", bookShelf);
+
+const numbers = [2, 17, 94, 1, -20, -1, -100, 23, -40, 37, -50];
+let min = numbers[0];
+for (const number of numbers) {
+  if (number > min) {
+    min = number;
+  }
+}
+console.log("min :>> ", min);
