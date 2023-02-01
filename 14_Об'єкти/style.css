@@ -1,0 +1,16 @@
+* {
+  color: #ff6cc2;
+  color: #50ed56;
+  color: #6272a4;
+  color: #04fbfb;
+  color: #eaed27;
+  color: #e97522;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+  margin-top: 100px;
+}
