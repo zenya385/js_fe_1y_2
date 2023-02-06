@@ -12,12 +12,12 @@
 // Number, Array, String, Boolean, Object;
 
 //? Отримайте суму зарплат усіх працівників
-const salaries = {
-  Іван: 100,
-  Маруся: 160,
-  Вася: 130,
-};
-let total = 0;
+// const salaries = {
+//   Іван: 100,
+//   Маруся: 160,
+//   Вася: 130,
+// };
+// let total = 0;
 // //6 Через for...in
 // for (const key in salaries) {
 //   console.log("key :>> ", key);
@@ -48,12 +48,12 @@ let total = 0;
 // const entriesArr = Object.entries(salaries);
 // console.table("entriesArr :>> ", entriesArr);
 
-let arr1 = [1, 1, 2, 3, 4];
-let arr2 = [5, 6, 7, 8, 9];
+// let arr1 = [1, 1, 2, 3, 4];
+// let arr2 = [5, 6, 7, 8, 9];
 
-// const allArr = arr1.concat(arr2);
-const allArr = [200, ...arr1, 100, ...arr2, 300];
-console.log("allArr :>> ", allArr);
+// // const allArr = arr1.concat(arr2);
+// const allArr = [200, ...arr1, 100, ...arr2, 300];
+// console.log("allArr :>> ", allArr);
 
 //* ============== Метод hasOwnProperty() ==============
 
