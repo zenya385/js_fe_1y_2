@@ -57,12 +57,12 @@ function calcTotalPrice(stones, stoneName) {
     if (stoneName) {
       const { name, price, quantity } = stones;
       totalPrice = price * quantity;
-  
-        console.log(`Sorry bro we dont have ${stones},${stones[i]}`);
-      }
+
+      console.log(`Sorry bro we dont have ${stones},${stones[i]}`);
     }
   }
-  console.log("totalPrice :>> ", totalPrice);
 }
+console.log("totalPrice :>> ", totalPrice);
+// }
 calcTotalPrice(stones, "Діамант");
 calcTotalPrice(stones, "safsa");
