@@ -38,17 +38,26 @@
 
 //* Навігації по DOM дереву
 
+//! Для всіх вузлів:
 //3  -elem.parentNode - вибере батьківський elem.
 //3  -elem.childNodes - псевдомасив, зберігає всі дочірні елементи, включно з текстовими.
-//3  -elem.children - псевдомасив, зберігає тільки дочірні вузли-елементи, тобто ті, що відповідають тегам.
 //3  -elem.firstChild - вибере перший дочірній елемент всередині elem, включно з текстовими вузлами.
-//3  -elem.firstElementChild - вибере перший дочірній вузол-елемент всередині elem.
 //3  -elem.lastChild - вибере останній дочірній елемент всередині elem, включно з текстовими вузлами.
-//3  -elem.lastElementChild - вибере останній дочірній вузол-елемент всередині elem.
 //3  -elem.previousSibling - вибере елемент «зліва» від elem (його попереднього сусіда).
-//3  -elem.previousElementSibling - вибере вузол-елемент «зліва» від elem (його попереднього сусіда).
 //3  -elem.nextSibling - вибере елемент «праворуч» від elem (його наступного сусіда)
+
+//! Лише для вузлів елементів:
+//3  -elem.children - псевдомасив, зберігає тільки дочірні вузли-елементи, тобто ті, що відповідають тегам.
+//3  -elem.firstElementChild - вибере перший дочірній вузол-елемент всередині elem.
+//3  -elem.lastElementChild - вибере останній дочірній вузол-елемент всередині elem.
+//3  -elem.previousElementSibling - вибере вузол-елемент «зліва» від elem (його попереднього сусіда).
 //3  -elem.nextElementSibling - вибере вузол-елемент «праворуч» від elem (його наступного сусіда).
+
+//! Для всіх вузлів:
+//! parentNode, childNodes, firstChild, lastChild, previousSibling, nextSibling.
+
+//! Лише для вузлів елементів:
+//! parentElement, children, firstElementChild, lastElementChild, previousElementSibling, nextElementSibling.
 
 // console.log(document);
 
@@ -64,7 +73,7 @@
 // const listItems = list.children;
 // console.log(listItems);
 //* ===============================================================
-const listEl = document.querySelector(".list");
+// const listEl = document.querySelector(".list");
 // console.log("listEl :>> ", listEl);
 // console.log(listEl.parentNode);
 // console.log(listEl.childNodes);
@@ -110,20 +119,20 @@ const listEl = document.querySelector(".list");
 
 //* ++++++++++++++++++++++ Example ++++++++++++++++++++++++++++++++++
 
-const listWithId = document.querySelector("#menu");
-listWithId.style.textTransform = "uppercase";
-listWithId.style.fontSize = "24px";
-console.log("після ", listWithId);
+// const listWithId = document.querySelector("#menu");
+// listWithId.style.textTransform = "uppercase";
+// listWithId.style.fontSize = "24px";
+// console.log("після ", listWithId);
 
-const listWithClass = document.querySelector(".menu");
-console.log(listWithClass);
+// const listWithClass = document.querySelector(".menu");
+// console.log(listWithClass);
 
-const menuItemsByTagName = document.querySelectorAll("li");
-console.log(menuItemsByTagName[3]);
+// const menuItemsByTagName = document.querySelectorAll("li");
+// console.log(menuItemsByTagName[3]);
 
-const menuItemsByClass = document.querySelectorAll(".menu-item");
-console.log(menuItemsByClass);
+// const menuItemsByClass = document.querySelectorAll(".menu-item");
+// console.log(menuItemsByClass);
 
-const firstMenuItem = document.querySelector(".menu-item");
-firstMenuItem.style.color = "tomato";
-console.log(firstMenuItem);
+// const firstMenuItem = document.querySelector(".menu-item");
+// firstMenuItem.style.color = "tomato";
+// console.log(firstMenuItem);
