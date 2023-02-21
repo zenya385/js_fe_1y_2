@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 15px;
+  background: teal;
+  border-radius: 7px;
+  border: transparent;
+  color: antiquewhite;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #3acaca;
+}
