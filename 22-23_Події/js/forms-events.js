@@ -1,5 +1,8 @@
 /*
- * Події елементів форм. focus, blur, change, input, submit
+
+* - Подія submit
+* - властивість elements
+* - Події елементів форм. focus, blur, change, input.
  */
 // const userNameInputEl = document.querySelector('.js-username-input');
 // const userNameOutputEl = document.querySelector('.js-username-output');
@@ -53,3 +56,22 @@
 //   submitBtnEl.disabled = true;
 //   userNameOutputEl.textContent = '';
 // });
+
+// * - Подія submit
+// * - властивість elements =====================================
+
+// const form = document.querySelector(".js-register-form");
+
+// form.addEventListener("submit", onFormSubmit);
+
+// function onFormSubmit(e) {
+//   e.preventDefault();
+//   console.log("elements:>>", e.currentTarget.elements);
+//   const formEl = e.currentTarget.elements;
+
+//   const mail = formEl.email.value;
+//   const password = formEl.password.value;
+//   const subscription = formEl.subscription.value;
+
+//   const formData = { mail, password, subscription };
+// }

@@ -35,7 +35,7 @@
 //4 Метод addEventListener() - видалення слухача події;
 //2  element.removeEventListener(event, handler, options);
 
-const singleBtn = document.querySelector("#single");
+// const singleBtn = document.querySelector("#single");
 // const multiBtn = document.querySelector("#multiple");
 
 // const onBtnClick = () => {
@@ -59,9 +59,9 @@ const singleBtn = document.querySelector("#single");
 // multiBtn.addEventListener("click", thirdCallback);
 
 
-const button = document.querySelector('button')
-const handleClick = (event) => {
-  console.log(event);
-};
+// const button = document.querySelector('button')
+// const handleClick = (event) => {
+//   console.log(event);
+// };
 
-button.addEventListener("click", handleClick);
+// button.addEventListener("click", handleClick);
