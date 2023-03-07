@@ -1,0 +1,23 @@
+- Термінал
+  - [Шпаргалка1 RU](https://tproger.ru/translations/bash-cheatsheet/)
+  - [Шпаргалка2 RU](https://habr.com/ru/company/ruvds/blog/445270/)
+  - Відкрити термінал
+    - `ctrl + ~`
+    - `view > teminal`
+    - через палітру `ctrl + shift + p`  Terminal:created new terminal
+  - Основні корисні команди
+    - шлях (pwd)
+    - список (ls)
+    - навигація (cd)
+    - очистка `clear` або `control + l`
+    - створення файлів (touch)
+    - створення папок (mkdir)
+    - переіменовати/переміщення (mv)
+    - видалення (rm)
+- Node.js і npm
+  - встановлення
+  - ініціалізація і package.json
+  - [npmjs.com](https://www.npmjs.com/)
+  - работа з пакетами
+    - встановлення
+    - видалення
