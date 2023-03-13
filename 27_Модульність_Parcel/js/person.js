@@ -12,6 +12,6 @@ import {
 // console.log('num:>>', num)
 // console.log(allFunc);
 //  console.log(fetchAllUsers);
-console.log(fetchUserById);
-console.log(updateUserById);
-console.log("user:>>", user);
+// console.log(fetchUserById);
+// console.log(updateUserById);
+// console.log("user:>>", user);
