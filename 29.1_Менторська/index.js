@@ -24,7 +24,7 @@ const timer = {
       updateClockface(timer);
       // console.log("timeComponent:>>", timeComponent);
       // console.log("XX:XX:XX");
-      // console.log(`${hours}:${mins}:${secs}`); //1 start taimer
+      // console.log(`${hours}:${mins}:${secs}`); //1 start timer
     }, 1000);
   },
   stop() {

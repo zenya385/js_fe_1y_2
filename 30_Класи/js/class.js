@@ -63,6 +63,7 @@ class User {
   }
 }
 
+// const qe = 
 const mango = new User({ name: "Манго", email: "mango@mail.com" });
 console.log(mango.email); // mango@mail.com
 mango.email = "";
