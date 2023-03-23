@@ -1,3 +1,5 @@
+// import "./css/common.css";
+
 const refs = {
   startBtn: document.querySelector("button[data-action-start]"),
   stopBtn: document.querySelector("button[data-action-stop]"),
@@ -32,7 +34,7 @@ const timer = {
     this.isActive = false;
   },
 };
-// timer.start();
+timer.start();
 
 refs.startBtn.addEventListener("click", () => {
   timer.start();
