@@ -1,16 +1,16 @@
-async function name(params) {}
+// async function name(params) {}
 
-const fn = async function () {};
+// const fn = async function () {};
 
-const arr = async () => {};
+// const arr = async () => {};
 
-const x = {
-  async getuser() {},
-};
+// const x = {
+//   async getuser() {},
+// };
 
-class X {
-  async getName() {}
-}
+// class X {
+//   async getName() {}
+// }
 
 // const fetchUsers = async () => {
 //   const response = await fetch("https://jsonplaceholder.typicode.com/users");
